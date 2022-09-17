@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bangers&family=Josefin+Sans&family=Montserrat&family=Open+Sans&family=Roboto&family=Sora&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;   
+    text-align: center;
+    display: block; 
+}
+.heading{
+    font-weight: bolder;
+    padding-top: 10rem;
+    color: #a3e635;
+}
+
+.input-label {
+    display: block;
+    font-size: large;
+    font-weight: 600;
+    color: #bef264;
+  }
+  .input {
+    font-size: 14px;
+    outline: black;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid ;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+    border-color: black;
+  }
+
+  #btn {
+    background:#bef264;
+    border: none;
+    color: black;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: black;
+    margin: auto;
+    display: block;
+  }
+  
+  #output{
+    font-size: x-large;
+    margin: 2rem 0;
+    font-weight: bold;
+  }
