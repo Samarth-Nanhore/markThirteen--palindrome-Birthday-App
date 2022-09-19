@@ -179,11 +179,14 @@ function clickHandler(e){
 
      if(isPalindrome){
       output.innerText = "Yup, your birthday is Palindrome!😎"
+      output.style.color = "#84cc16";
      }
      else{
       var [counter, nextDate] = nextPalindromeDate(date);
       output.innerText = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${counter} days! 😐`;
-  }
+      output.style.color = "#f43f5e";
+
+    }
      }
 
   
